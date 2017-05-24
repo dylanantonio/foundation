@@ -1,0 +1,23 @@
+.info-header{
+	background: #ccc;
+}
+
+.info-col{
+	margin-top: 20px;
+}
+
+.menu{
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li{
+	list-style: none;
+	margin-right: 20px;
+
+}
+
+.menu li a{
+	text-decoration: none;
+}
