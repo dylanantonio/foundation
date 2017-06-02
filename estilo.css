@@ -188,20 +188,7 @@
 	align-items: center;
 }
 
-.form-save .form-group .form-control {
-    width: 78%;
-    border-radius: 0px;
-    width: 80%;
-    height: 40px;
-    margin-bottom: 10px;
-}
 
-.form-save .form-group label{
-	font-family: 'Roboto', sans-serif;
-	color: #9b9b9b;
-	font-weight: 500;
-	font-size: 16px;
-}
 
 .form-save .btn-default {
     color: #fff;
@@ -209,7 +196,7 @@
     font-weight: 500;
     font-size: 16px;
     background-color: #4abde2;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 10px 40px;
     margin-left: 154px;
     transition: all .3s;
@@ -222,8 +209,8 @@
 .footer-questions{
 	border-style: dotted;
 	border-color: #9b9b9b;
-	border-width: 2px;
-	padding: 25px 40px;
+	border-width: 3px;
+	padding: 20px 40px;
 	margin-top: 50px;
 	margin-bottom: 20px;
 }
@@ -254,7 +241,7 @@
 @media screen and (max-width: 768px){
 	.header-col{
 		border-bottom: solid 1px #e9e7e7;
-		padding-bottom: 25px;
+		padding-bottom: 20px;
 	}
 
 	.menu-ham{
@@ -284,10 +271,24 @@
 	}
 
 	.form-save .btn-default {
-	    width: 50%;
+	    width: 40%;
 	    display: block;
 	    margin: auto;
 	}
+	.form-save .form-group .form-control {
+    width: 70%;
+    border-radius: 0px;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.form-save .form-group label{
+	font-family: 'Roboto', sans-serif;
+	color: #9b9b9b;
+	font-weight: 500;
+	font-size: 16px;
+}
 
 	.info-4 {
 	    padding: 40px 55px;
